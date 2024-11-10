@@ -1,0 +1,290 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: initial;
+  color: inherit;
+  padding: inherit;
+}
+
+p {
+  color: inherit;
+  padding: initial;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+
+.sup__nav {
+  background: #b36050;
+  
+}
+.sap__wrapper {
+  background: #b36050;
+  color: #f1d3b9;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(246, 244, 236);
+}
+
+.nav__link {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 172px;
+}
+
+.link__part {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 28px;
+  color: #b36050;
+}
+
+.nav__img {
+  transform: -50%;
+}
+
+.nav__profile {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 120px;
+}
+
+.profile__place {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding-right: 120px;
+  color: #b36050;
+  gap: 43px;
+}
+
+.hero__img {
+  background: #a9ae8d;
+}
+
+.hero__info {
+  text-align: center;
+  padding: 69px 0 51px 0;
+  background: #a9ae8d;
+  color: white;
+}
+
+.hero__sup-title {
+  font-size: 18px;
+  color: white;
+}
+
+.hero__title {
+  margin: 15px 0 28px 0;
+  font-size: 33px;
+}
+
+.hero__4-btn {
+  align-items: center;
+  padding: 10px 20px;
+  background: #b45f4d;
+  color: white;
+  border: none;
+}
+
+.hero__4-btn:hover {
+  background: #a9ae8d;
+}
+
+.pick__wrapper {
+  background: #f6f4ec;
+  color: #b36050;
+}
+
+.pick__title {
+  text-align: center;
+  padding: 39px 0 14px 0;
+  font-size: 23px;
+}
+
+.pick__pretty {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 128px 0 125px;
+  gap: 80px;
+}
+
+.pretty__shampoo {
+  width: 340px;
+}
+
+.pretty__conditioner {
+  width: 340px;
+}
+
+.pick__link {
+  width: 1310px;
+  justify-content: space-between;
+  display: flex;
+  padding: 0 0 39px 125px;
+}
+
+.pretty__text {
+  padding: 33px 0 23px 0;
+}
+
+.pretty__price {
+  padding-bottom: 30px;
+}
+
+.feel__wrapper {
+  width: 1200px;
+  padding: 34px 128px 40px 125px;
+}
+
+.feel__img {
+  position: relative;
+}
+
+.feel__info {
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  position: absolute;
+  bottom: 44px;
+  background: #df9b7a;
+  color: white;
+}
+
+.feel__title {
+  font-size: 20px;
+}
+
+.feel__shop {
+  font-size: 18px;
+}
+
+.meet__wrapper {
+  display: flex;
+  justify-content: space-between;
+  background: #f1d3b9;
+  padding: 97px 120px 67px 116px;
+}
+
+.meet__info {
+  width: 500px;
+  background: #f8f8f8;
+  color: #b45f4d;
+  padding: 0 42px;
+}
+
+.info__title {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 134px;
+}
+
+.info__text {
+  font-size: 19px;
+  padding: 22px 0 41px 0;
+  line-height: 30.4px;
+}
+
+.follow__title {
+  text-align: center;
+  padding-top: 55px;
+}
+
+.follow__brand {
+  display: flex;
+  padding: 43px 128px 40px 125px;
+  gap: 8px;
+}
+
+.follow__img {
+  position: relative;
+}
+
+.follow__logo {
+  position: absolute;
+  left: 73px;
+  bottom: 11px;
+}
+
+.footer__wrapper {
+  color: #c17c6c;
+  background: #f6f4ec;
+}
+
+.footer__big-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__plate {
+  display: flex;
+}
+
+.footer__link {
+  padding: 57px 58px 19px 120px;
+  list-style: none;
+  line-height: 30.4px;
+}
+
+.footer__link-1 {
+  padding: 57px 58px 19px 58px;
+  list-style: none;
+  line-height: 30.4px;
+}
+
+.footer__card {
+  padding: 57px 124px 19px 0;
+  line-height: 32px;
+}
+
+form {
+  display: flex;
+  width: 470px;
+  border: 1px solid #c17c6c;
+  background-color: white;
+  gap: 25px;
+  margin: 12px 0 20px 0;
+}
+.card__btn{
+  border: none;
+  padding: 8px;
+  background-color: white;
+  width: 600px;
+  color: #c17c6c;
+
+  text-align: right;
+}
+input {
+  border: none;
+  background-color: white;
+}
+
+hr {
+  color: #c17c6c;
+}
+
+.adres {
+  text-align: center;
+  color: #c17c6c;
+  padding: 18px 0;
+}
